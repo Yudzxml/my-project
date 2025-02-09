@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://i.imghippo.com/files/flJc2568nys.jpg');
+    background-size: 110% 130%; /* Mengatur gambar agar menutupi seluruh latar belakang */
+    background-position: top; /* Mengatur posisi gambar di tengah */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+    color: #333;
+    text-align: center;
+    padding: 30px;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.3); /* Hitam dengan 30% transparansi */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Lebar maksimum kontainer */
+    margin-top: 50px;
+}
+.whatsapp-logo, .telegram-logo {
+    width: 20px; /* Ukuran logo */
+    height: auto; /* Menjaga rasio aspek */
+    vertical-align: middle; /* Memastikan logo sejajar dengan teks */
+    margin-right: 5px; /* Jarak antara logo dan teks */
+}
+.profile-pic {
+    width: 100px; /* Ukuran gambar profil */
+    height: 100px; /* Ukuran gambar profil */
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+    margin-bottom: 20px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column; /* Mengatur tautan dalam kolom */
+    gap: 10px; /* Jarak antara tautan */
+}
+
+.link {
+    display: block; /* Membuat tautan menjadi blok */
+    padding: 15px; /* Jarak dalam tautan */
+    background-color: #25D366; /* Warna latar belakang tautan */
+    color: white; /* Warna teks tautan */
+    text-decoration: none; /* Menghapus garis bawah */
+    border-radius: 5px; /* Sudut melengkung */
+    transition: background-color 0.3s; /* Efek transisi */
+}
+
+.link:hover {
+    background-color: #128C7E; /* Warna latar belakang saat hover */
+}
+
+h1 {
+    font-size: 20px; /* Ukuran font untuk nama */
+    color: #2c3e50; /* Warna font untuk nama */
+    margin-bottom: 10px; /* Jarak bawah untuk nama */
+}
+
+.play-button {
+    background-color: #25D366; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    border: none;
+    border-radius: 50%; /* Membuat tombol menjadi bulat */
+    width: 60px; /* Lebar tombol */
+    height: 60px; /* Tinggi tombol */
+    font-size: 24px; /* Ukuran font untuk ikon play */
+    cursor: pointer;
+    margin-top: 20px; /* Jarak atas tombol */
+    transition: background-color 0.3s; /* Efek transisi */
+}
+
+.play-button:hover {
+    background-color: #128C7E; /* Warna latar belakang saat hover */
+}
