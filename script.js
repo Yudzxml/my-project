@@ -1,12 +1,15 @@
-const audio = document.getElementById("sound");
-const playButton = document.getElementById("play-button");
+const sound = document.getElementById('sound');
+const beatAnimation = document.getElementById('beat-animation');
 
-playButton.addEventListener("click", () => {
-    if (audio.paused) {
-        audio.play();
-        playButton.textContent = "❚❚"; // Ubah teks tombol menjadi Pause
-    } else {
-        audio.pause();
-        playButton.textContent = "▶"; // Ubah teks tombol menjadi Play
-    }
+// Event listener untuk elemen audio
+sound.addEventListener('play', () => {
+    beatAnimation.classList.add('active'); // Mulai animasi
+});
+
+sound.addEventListener('pause', () => {
+    beatAnimation.classList.remove('active'); // Hentikan animasi
+});
+
+sound.addEventListener('ended', () => {
+    beatAnimation.classList.remove('active'); // Hentikan animasi saat audio selesai
 });
