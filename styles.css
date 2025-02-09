@@ -1,8 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     background-image: url('https://i.imghippo.com/files/flJc2568nys.jpg');
-    background-size: 110% 130%; /* Mengatur gambar agar menutupi seluruh latar belakang */
-    background-position: top; /* Mengatur posisi gambar di tengah */
+    background-size: cover; /* Mengatur gambar agar menutupi seluruh latar belakang */
+    background-position: center; /* Mengatur posisi gambar di tengah */
     background-repeat: no-repeat; /* Menghindari pengulangan gambar */
     color: #333;
     text-align: center;
